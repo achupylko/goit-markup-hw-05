@@ -28,7 +28,7 @@
 ## 🧩 Структура репозиторію
 
 ```
-GoIT-Homework-5/
+goit-markup-hw-05/
 │
 ├── index.html        # Основний HTML-файл із формами
 ├── css/
