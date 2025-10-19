@@ -67,7 +67,7 @@
       <section id="hero" class="hero">
         <div class="container">
           <h1 class="hero-title">Effective Solutions for Your Business</h1>
-          <button type="button" class="btn">Order Service</button>
+          <button type="button" class="btn hero-btn">Order Service</button>
         </div>
       </section>
       <!-- Benefits section -->
@@ -418,7 +418,7 @@
     <!-- Footer -->
     <footer class="footer">
       <div class="container">
-        <div class="footer-content">
+        <div class="footer-brand">
           <a href="./index.html" class="footer-logo logo"
             >Web<span class="light">Studio</span></a
           >
@@ -460,12 +460,32 @@
             </li>
           </ul>
         </div>
+        <form class="footer-form">
+          <label>
+            <p class="title">Subscribe</p>
+            <div class="footer-form-wrapper">
+              <input
+                class="footer-form-input"
+                type="email"
+                name="subscribe-email"
+                id="subscribe-email"
+                placeholder="E-mail"
+              />
+              <button class="btn footer-btn" type="submit">
+                Subscribe
+                <svg class="footer-btn-icon" width="24" height="24">
+                  <use href="./images/icons.svg#icon-send"></use>
+                </svg>
+              </button>
+            </div>
+          </label>
+        </form>
       </div>
     </footer>
     <!-- Modal window -->
     <div class="backdrop">
       <div class="modal">
-        <button type="button" class="modal-btn">
+        <button type="button" class="modal-close-btn">
           <svg class="modal-btn-icon" width="8" height="8">
             <use href="./images/icons.svg#icon-close"></use>
           </svg>
@@ -550,7 +570,7 @@
               <a class="agreement-link" href="#">Privacy Policy</a>
             </label>
           </div>
-          <button type="submit" class="btn">Send</button>
+          <button type="submit" class="btn modal-btn">Send</button>
         </form>
       </div>
     </div>
