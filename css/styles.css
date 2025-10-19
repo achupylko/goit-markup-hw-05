@@ -467,12 +467,12 @@ body:has(.backdrop.is-open) {
   background-color: transparent;
   outline: transparent;
   box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
-}
-
-.footer-form-input::placeholder {
   font-size: 12px;
   line-height: 2;
   letter-spacing: 0.04em;
+}
+
+.footer-form-input::placeholder {
   color: currentColor;
 }
 
@@ -482,7 +482,7 @@ body:has(.backdrop.is-open) {
   align-items: center;
   gap: 16px;
   padding: 8px 24px;
-  width: 165px;
+  min-width: 165px;
   height: 40px;
 }
 
@@ -678,7 +678,6 @@ body:has(.backdrop.is-open) {
 input[type='checkbox']:checked + .agreement-wrapper > .agreement-checkbox {
   border: none;
   background-color: #404bbf;
-  border: 1px solid #404bbf;
   fill: #f4f4fd;
 }
 
